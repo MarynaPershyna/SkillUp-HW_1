@@ -1,26 +1,13 @@
-// const logItems = function (array) {
-//   // твій код
-// };
-// let logItems = ['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong'];
-// function displayArr(arr){
-//   for (let idx = 0; idx < arr.length; idx++) {
-//     console.log = arr[idx];
-    
-//   }
-// }
-// displayArr(logItems)
 
-
-let fruits = ["apple", "banana", "pear", "melon"];
-let users = ["vova", "sara", "bob", "mike"];
-let numbers = [10, 20, 30, 40, 45, 4];
-
-function dispalyArr(arr) {
-    for (let idx = 0; idx < arr.length; idx++) {
-        console.log(arr[idx]);
+const logItems = function showMe (array) {
+    for (let ind = 0; ind < array.length; ind++) {
+      console.log (`${ind+1} - ${array[ind]}`);
+      
     }
-}
+};
+let items = ['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']
 
-dispalyArr(users);
-dispalyArr(fruits);
-dispalyArr(numbers);
+let numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
+
+logItems(items)
+
