@@ -3,10 +3,6 @@
 const calculateEngravingPrice = function (mess, pricePerWord) {
     return pricePerWord * mess.split(' ').length;
   };
- 
-  
-  // 80
-
 
   const mess = 'Proin sociis natoque et magnis parturient montes mus';
 
