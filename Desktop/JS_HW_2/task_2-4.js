@@ -1,17 +1,13 @@
 const formatString = function (string) {
     
     if (string.length < 40){
-        console.log(string)
+        return string;
     }
     if (string.length > 40){
         let str = string.slice(0, 40) + "..."
-        console.log(str)
+        return str;
     }
-
     } 
-
-    
-    
   
   /*
    * Виклич функції для перевірки працездатності твоєї реалізації.
@@ -25,9 +21,5 @@ const formatString = function (string) {
   console.log(formatString('Curabitur ligula sapien.'));
   // повернеться оригінальний рядок
   
-  console.log(
-    formatString(
-      'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
-    ),
-  );
+  console.log(formatString('Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',),);
   // повернеться форматований рядок
